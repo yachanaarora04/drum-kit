@@ -7,7 +7,6 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++)
         buttonAnimation(buttonInnerHTML);
     }
     );
-   
 }
 
 for(var i=0;i<document.querySelectorAll(".drum").length;i++)
@@ -76,5 +75,4 @@ function buttonAnimation(currentKey)
     {
         activeButton.classList.remove("pressed");
     },100);
-
 }
